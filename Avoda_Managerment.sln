@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avoda_Managerment", "Avoda_Managerment.csproj", "{88E55653-D377-4BA1-BB58-C8A6F781822D}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup_project", "Setup_project\Setup_project.vdproj", "{81DC8323-EE5B-4650-ACAB-5AE317EDB7AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88E55653-D377-4BA1-BB58-C8A6F781822D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88E55653-D377-4BA1-BB58-C8A6F781822D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88E55653-D377-4BA1-BB58-C8A6F781822D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88E55653-D377-4BA1-BB58-C8A6F781822D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81DC8323-EE5B-4650-ACAB-5AE317EDB7AA}.Debug|Any CPU.ActiveCfg = Debug
+		{81DC8323-EE5B-4650-ACAB-5AE317EDB7AA}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A4E0079-92EE-433F-BF42-064A74351918}
+	EndGlobalSection
+EndGlobal
