@@ -72,7 +72,7 @@
     <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>avoda-logo.ico</ApplicationIcon>
+    <ApplicationIcon>Assets\Images\avoda-logo.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="BouncyCastle.Crypto, Version=1.8.5.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
@@ -257,13 +257,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Images\1x\sharp_shopping_bag_black_24dp.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Assets\Images\avoda-logo.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Assets\Images\1x\round_shopping_bag_white_36dp.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Images\round_shopping_bag_white_36dp.png" />
@@ -284,7 +278,8 @@
     <None Include="Assets\Images\icons8-back-36.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="avoda-logo.ico" />
+    <Content Include="Assets\Images\avoda-logo.ico" />
+    <Content Include="Assets\Images\avoda_logo_2.ico" />
     <Content Include="Database\Avoda_Fresh_DB.sql" />
   </ItemGroup>
   <ItemGroup>

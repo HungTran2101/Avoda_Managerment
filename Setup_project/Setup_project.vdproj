@@ -3,7 +3,7 @@
 "VSVersion" = "3:800"
 "ProjectType" = "8:{978C614F-708E-4E1A-B201-565925725DBA}"
 "IsWebType" = "8:FALSE"
-"ProjectName" = "8:Setup_project"
+"ProjectName" = "8:Avoda setup"
 "LanguageId" = "3:1033"
 "CodePage" = "3:1252"
 "UILanguageId" = "3:1033"
@@ -29,6 +29,12 @@
         {
         "MsmKey" = "8:_188FE2D4FE6A653718F9033786950849"
         "OwnerKey" = "8:_69CC5A1ABFA5D0957AAA60AD83180EF3"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_1EF6AB72F01448169770DCFD8E450071"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -207,8 +213,20 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_8EF37E52D1BF4E6AB5261D4465431507"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_9DD015487AB7F4994EBF5AC68C4AF3FB"
         "OwnerKey" = "8:_409CD2FB75A244FB91A6749EF841E7FD"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_AC893D108C69447EB28B741237690664"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -249,12 +267,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_E750B94427884E2AAEC1FE6AE8545306"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_F46B1B266B52DA4CDBF4FDC6624427EB"
         "OwnerKey" = "8:_78548515EEF89D6C9814A5A770669548"
         "MsmSig" = "8:_UNDEFINED"
@@ -263,12 +275,6 @@
         {
         "MsmKey" = "8:_F46B1B266B52DA4CDBF4FDC6624427EB"
         "OwnerKey" = "8:_409CD2FB75A244FB91A6749EF841E7FD"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_69220F5406B282A6FE113A15AF332C4F"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -379,6 +385,12 @@
         "OwnerKey" = "8:_24C6596A0013F97090037AEC1E740403"
         "MsmSig" = "8:_UNDEFINED"
         }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_69220F5406B282A6FE113A15AF332C4F"
+        "MsmSig" = "8:_UNDEFINED"
+        }
     }
     "Configurations"
     {
@@ -387,7 +399,7 @@
         "DisplayName" = "8:Debug"
         "IsDebugOnly" = "11:TRUE"
         "IsReleaseOnly" = "11:FALSE"
-        "OutputFilename" = "8:Debug\\Setup_project.msi"
+        "OutputFilename" = "8:Debug\\Avoda_setup.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -397,6 +409,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -413,6 +441,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
+            }
         }
     }
     "Deployable"
@@ -471,6 +515,26 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1EF6AB72F01448169770DCFD8E450071"
+            {
+            "SourcePath" = "8:..\\Database\\Avoda_Fresh_DB.sql"
+            "TargetName" = "8:Avoda_Fresh_DB.sql"
+            "Tag" = "8:"
+            "Folder" = "8:_AF09E205725F4F5EA0ACF0A97DB51FC4"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_24C6596A0013F97090037AEC1E740403"
@@ -845,6 +909,26 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8EF37E52D1BF4E6AB5261D4465431507"
+            {
+            "SourcePath" = "8:..\\Assets\\Images\\avoda_logo_2.ico"
+            "TargetName" = "8:avoda_logo_2.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_6C1BDC92E412407B8E0147F8A9AD7CC7"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_9DD015487AB7F4994EBF5AC68C4AF3FB"
             {
             "AssemblyRegister" = "3:1"
@@ -874,6 +958,26 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_AC893D108C69447EB28B741237690664"
+            {
+            "SourcePath" = "8:D:\\.Setup\\VC_redist.x64.exe"
+            "TargetName" = "8:VC_redist.x64.exe"
+            "Tag" = "8:"
+            "Folder" = "8:_AF09E205725F4F5EA0ACF0A97DB51FC4"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_B5D0396DA7F9017DAD420463FB9BC659"
@@ -969,26 +1073,6 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E750B94427884E2AAEC1FE6AE8545306"
-            {
-            "SourcePath" = "8:..\\Assets\\Images\\avoda-logo.ico"
-            "TargetName" = "8:avoda-logo.ico"
-            "Tag" = "8:"
-            "Folder" = "8:_6C1BDC92E412407B8E0147F8A9AD7CC7"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_F46B1B266B52DA4CDBF4FDC6624427EB"
             {
             "AssemblyRegister" = "3:1"
@@ -1047,6 +1131,17 @@
             "Property" = "8:TARGETDIR"
                 "Folders"
                 {
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_AF09E205725F4F5EA0ACF0A97DB51FC4"
+                    {
+                    "Name" = "8:Resource"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_EA3AF03218D44C5698F24F8CD47FBF6C"
+                        "Folders"
+                        {
+                        }
+                    }
                 }
             }
             "{1525181F-901A-416C-8A58-119130FE478E}:_CC4DBCC6AD534A379E680227AB57DFA9"
@@ -1075,9 +1170,9 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:Management App"
+        "ProductName" = "8:Avoda Store"
         "ProductCode" = "8:{AFEA1DA3-5FF0-4202-A72A-4C162822066D}"
-        "PackageCode" = "8:{123DFF01-C5A2-49BB-8990-1942BA373850}"
+        "PackageCode" = "8:{1F7FA933-C486-4F23-97A0-708D780792C1}"
         "UpgradeCode" = "8:{1C4E28AC-A948-48D7-9515-4DBC28138E62}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -1094,7 +1189,7 @@
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:Store management application"
         "ARPURLINFOABOUT" = "8:"
-        "ARPPRODUCTICON" = "8:_E750B94427884E2AAEC1FE6AE8545306"
+        "ARPPRODUCTICON" = "8:_8EF37E52D1BF4E6AB5261D4465431507"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
@@ -1197,7 +1292,7 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_8569700999F94916A951EDD7BD97B129"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_694A6B1ECF2F4A71888EC420A3C27F09"
             {
             "Name" = "8:Avoda Store"
             "Arguments" = "8:"
@@ -1208,10 +1303,10 @@
             "Target" = "8:_409CD2FB75A244FB91A6749EF841E7FD"
             "Folder" = "8:_CC4DBCC6AD534A379E680227AB57DFA9"
             "WorkingFolder" = "8:_6C1BDC92E412407B8E0147F8A9AD7CC7"
-            "Icon" = "8:_E750B94427884E2AAEC1FE6AE8545306"
+            "Icon" = "8:_8EF37E52D1BF4E6AB5261D4465431507"
             "Feature" = "8:"
             }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_9DBC1A33FD9D4C34BA21903BBBBFA001"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_DACCA947D6054E8C9CC46F01C488DA19"
             {
             "Name" = "8:Avoda Store"
             "Arguments" = "8:"
@@ -1222,7 +1317,7 @@
             "Target" = "8:_409CD2FB75A244FB91A6749EF841E7FD"
             "Folder" = "8:_4F8EDD1C32F34C918AC8CF72B6E34D18"
             "WorkingFolder" = "8:_6C1BDC92E412407B8E0147F8A9AD7CC7"
-            "Icon" = "8:_E750B94427884E2AAEC1FE6AE8545306"
+            "Icon" = "8:_8EF37E52D1BF4E6AB5261D4465431507"
             "Feature" = "8:"
             }
         }

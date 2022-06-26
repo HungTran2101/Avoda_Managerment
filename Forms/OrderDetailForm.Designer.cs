@@ -29,6 +29,7 @@ namespace Avoda_Managerment.Forms
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(OrderDetailForm));
             this.label3 = new System.Windows.Forms.Label();
             this.txt_customer_name = new System.Windows.Forms.TextBox();
             this.txt_customer_phone = new System.Windows.Forms.TextBox();
@@ -239,6 +240,7 @@ namespace Avoda_Managerment.Forms
             this.Controls.Add(this.txt_customer_name);
             this.Controls.Add(this.txt_customer_phone);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(472, 481);
             this.MinimumSize = new System.Drawing.Size(472, 481);

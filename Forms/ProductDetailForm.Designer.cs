@@ -29,6 +29,7 @@ namespace Avoda_Managerment.Forms
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ProductDetailForm));
             this.txt_color = new System.Windows.Forms.TextBox();
             this.txt_name = new System.Windows.Forms.TextBox();
             this.txt_stock = new System.Windows.Forms.NumericUpDown();
@@ -277,6 +278,7 @@ namespace Avoda_Managerment.Forms
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "ProductDetailForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
