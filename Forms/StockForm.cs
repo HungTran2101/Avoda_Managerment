@@ -32,7 +32,6 @@ namespace Avoda_Managerment.Forms
             txt_size.Items.AddRange(Global.sizes);
 
             loadAllProduct();
-            loadProductType();
         }
 
         private void loadProductType()
@@ -45,6 +44,7 @@ namespace Avoda_Managerment.Forms
 
         private void loadAllProduct()
         {
+            loadProductType();
             productData = myDB.getAllProduct();
             grid_stock.DataSource = productData;
             resizeGridView();
